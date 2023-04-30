@@ -28,6 +28,7 @@ public class BasePage extends BrowserDriver{
 		System.out.println("driver ="+driver);
 		driver.get(url);
 		System.out.println("url :"+url);
+		System.out.println("build successfull");
 	}
 	
 	/*@AfterMethod
