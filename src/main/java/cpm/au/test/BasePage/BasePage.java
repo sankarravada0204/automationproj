@@ -31,6 +31,12 @@ public class BasePage extends BrowserDriver{
 		System.out.println("build successfull");
 	}
 	
+	@Test
+	public void configdata() {
+		System.out.println("system is configured");
+	}
+	
+	
 	/*@AfterMethod
 	public void tearDown() {
 		driver.quit();
